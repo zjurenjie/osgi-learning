@@ -15,38 +15,22 @@ OSGI 框架是所有 OSGI 组件运行的基础，主流实现有 3 个：
 1. [Eclipse Equinox](https://github.com/eclipse-equinox/equinox)
    - **特点**：Eclipse IDE 的核心底层框架，实现了 OSGI Core Specification（最新支持 OSGi R9），功能全面、稳定性高，是 Java 桌面应用和企业级应用中最常用的 OSGI 框架之一。
    - **典型场景**：Eclipse 插件开发、基于 OSGI 的桌面应用、企业级模块化系统。
-   
-2. Apache Felix
+
+2. [Apache Felix](https://github.com/apache/felix)
    - **特点**：Apache 基金会的轻量级 OSGI 框架，模块化程度更高、体积更小，对嵌入式系统和轻量级服务端更友好，是 OSGI 生态中最活跃的实现之一。
    - **典型场景**：嵌入式设备、微服务网关、轻量级企业应用。
-   
-3. Knopflerfish OSGi Framework
-   - **特点**：开源的 OSGI 框架，专注于**嵌入式系统**和 IoT 领域，API 简洁，资源占用极低。
-   - **典型场景**：物联网设备、工业控制、小型嵌入式应用。
-   
-   ![star-history-2025125](./document/star-history-2025125.png)
-   
-   
+
+3. [Apache Karaf](https://github.com/apache/karaf)
+   - **特点**：基于 Apache Felix（默认）或 Eclipse Equinox 的 OSGI 容器，集成了大量企业级组件（如 HTTP 服务、配置管理、日志、安全），支持热部署、模块化配置和命令行管理（Gogo Shell），是目前最流行的 OSGI 服务端容器。
+   - **扩展**：Apache Karaf 还衍生出 Karaf Cellar（分布式 OSGI 集群）、Karaf Decanter（监控）等组件。
 
 
+三个框架的活跃数如下，其中
 
-```html
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="
-      https://api.star-history.com/svg?repos=star-history/apache/felix&type=Date&theme=dark
-    "
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="
-      https://api.star-history.com/svg?repos=star-history/apache/felix&type=Date
-    "
-  />
-  <img
-    alt="Star History Chart"
-    src="https://api.star-history.com/svg?repos=star-history/apache/felix&type=Date"
-  />
-</picture>
-```
+![star-history-2025125](https://github.com/zjurenjie/osgi-learning/blob/master/document/star-history-2025125.png)
+
+## OSGI入门实践
+
+### [Apache Felix入门实践](https://github.com/zjurenjie/osgi-learning/blob/master/document/apache-felix/readme.md)
+
+Apache Felix入门实践
